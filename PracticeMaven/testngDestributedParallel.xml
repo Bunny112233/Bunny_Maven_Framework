@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="5" name="Suite" parallel="tests">
+  <test thread-count="5" name="Testrunner_1" parallel="tests">
+    <classes>
+      <class name="AssignMent.TC_14_DeleteContact"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  <test thread-count="5" name="Testrunner_2" parallel="tests">
+  <classes>
+      <class name="AssignMent.TC_13_DeleteContact"/>
+      </classes>
+  </test> <!-- Test -->
+  
+  <test thread-count="5" name="Testrunner_3" parallel="tests">
+  <classes>
+      <class name="AssignMent.TC_11_CreateContact"/>
+      </classes>
+  </test> <!-- Test -->
+  
+  <test thread-count="5" name="Testrunner_4" parallel="tests">
+  <classes>
+      <class name="AssignMent.TC_15_EditContact"/>
+      </classes>
+  </test> <!-- Test -->
+  
+  <test thread-count="5" name="Testrunner_5" parallel="tests">
+    <classes>
+      <class name="AssignMent.TC_12_CreateContact"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
